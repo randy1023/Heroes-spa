@@ -9,7 +9,7 @@ export const HeroCard = ({
     characters,
 }) => {
     return (
-        <div className="col">
+        <div className="col  animate__animated animate__fadeIn">
             <div className="card">
                 <div className="row no-gutters">
                     <div className="col-4">
@@ -36,7 +36,7 @@ export const HeroCard = ({
                                 </small>
                             </p>
                             <Link
-                            to={`/hero/${id}`}
+                                to={`/hero/${id}`}
                             >
                                 mas...
                             </Link>
